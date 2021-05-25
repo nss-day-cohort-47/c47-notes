@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+
+List<string> groceryList = new List<string>() {
+    "foo", "bar", "baz"
+};
 
 Console.Write("First Name> ");
 string firstName = Console.ReadLine();

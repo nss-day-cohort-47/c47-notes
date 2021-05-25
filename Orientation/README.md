@@ -53,3 +53,5 @@
       * npm
       * serve
       * json-server
+
+## [Variables and Values](./VariablesAndValues.md)
