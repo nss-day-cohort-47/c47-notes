@@ -1,5 +1,13 @@
 # Orientation
 
+## [Concepts common to most programming languages](#concepts-common-to-most-programming-languages)
+
+## [Where does software run?](#where-does-software-run)
+
+## [Variables and Values](./VariablesAndValues.md)
+
+## [Namespaces and Classes](./ClassesAndNamespaces.md)
+
 ## Concepts common to most programming languages
 
 * Sequential execution
@@ -53,7 +61,3 @@
       * npm
       * serve
       * json-server
-
-## [Variables and Values](./VariablesAndValues.md)
-
-## [Namespaces and Classes](./ClassesAndNamespaces.md)
