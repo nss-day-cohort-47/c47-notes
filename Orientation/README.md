@@ -55,3 +55,5 @@
       * json-server
 
 ## [Variables and Values](./VariablesAndValues.md)
+
+## [Namespaces and Classes](./ClassesAndNamespaces.md)
