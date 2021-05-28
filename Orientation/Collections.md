@@ -1,4 +1,4 @@
-#Collections
+# Collections
 
 What is a collection?
 
@@ -8,7 +8,7 @@ Javascript examples would be Arrays and Objects.
 
 Where arrays order items in order and can be accessed by index, the objects had string keys attached to a value.
 
-#List 
+# List 
 
 Something you will have seen already is List<>.
 
@@ -35,7 +35,7 @@ Lists are found in the ``` System.Collections.Generic ``` namespace.
 ```cs
 using System.Collections.Generic
 ```
-###Creation of a List
+### Creation of a List
 ```cs
 List<int> test = new List<int>()
 {
@@ -47,40 +47,40 @@ List<int> test = new List<int>();
 
 List also come with a wide range of methods to use on them.
 
-##Some examples being:
+## Some examples being:
 
 
-###Add:
+### Add:
 
 Add lets you add an item to the end of the array.
 ```cs
 test.Add(11);
 ```
-###AddRange:
+### AddRange:
 
 AddRange lets you add a series of entries such as another list to your list at once.
 ```cs
 test.AddRange(test);
 ```
-###Insert:
+### Insert:
 
 Insert places the object at the specified index and moves the rest of the items down one index.
 ```cs
 test.Insert(2, 25);
 ```
-###Find:
+### Find:
 
 Find searches for the first instance of the item.
 ```cs
 Console.WriteLine(test.Find(x => x == 4));
 ```
-###Remove:
+### Remove:
 
 Removes the first instance of the item.
 ```cs
 test.Remove(7);
 ```
-###Contains:
+### Contains:
 
 Contains returns true or false if the List contains the item.
 ```cs
@@ -89,20 +89,20 @@ if(test.Contains(8))
     Console.WriteLine("Test contains 8");
 };
 ```
-###Count:
+### Count:
 
 Count is how many items are contained in the list.
 ```cs
 Console.WriteLine(test.Count);
 ```
-###Capacity:
+### Capacity:
 
 Capacity is how large the List can be before it resizes.
 ```cs
 Console.WriteLine(test.Capacity);
 
 ```
-#Dictionary
+# Dictionary
 
 Dictionaries are another example of collections similar to Javascript objects.
 
@@ -110,7 +110,7 @@ They consist of key, value pairs and are can be used to quickly find items withi
 
 
 
-##Example of a Dictionary:
+## Example of a Dictionary:
 ```cs
 Dictionary<string, int> fastFoodCount = new Dictionary<string, int>()
 {
@@ -145,7 +145,7 @@ foreach (KeyValuePair<string, int> store in fastFoodCount)
 ```
 
 
-###IEnumerable
+### IEnumerable
 
 There is another type of collection called IEnumerable which is used by a lot of LINQ methods. It functions a lot like a list but isn't as versatile.
 
