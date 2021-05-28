@@ -1,6 +1,8 @@
+# Exceptions
+
 C# is different to javascript when one gets an error. Javascript tends to tell you hey theres a problem but c# will let you know a lot more information.
 
-Lets see what an exception looks like.
+### Lets see what an exception looks like.
 
 ```cs
     string test = "number";
@@ -11,7 +13,7 @@ Lets see what an exception looks like.
 
 ```
 
-Here's an example of an exception.
+### Here's an example of an exception.
 ```
 Unhandled exception. System.FormatException: Input string was not in a correct format.
    at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
@@ -48,7 +50,7 @@ Try Catch is not a bandaid to fix bad code!
 
 Think about the errors!
 
-Try another example of an exception.
+### Try another example of an exception.
 
 ```cs
     List<string> dataEntries = new List<string>()
@@ -66,7 +68,7 @@ Try another example of an exception.
     }
 ```
 
-The exception:
+### The exception:
 
 ```
 Unhandled exception. System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
