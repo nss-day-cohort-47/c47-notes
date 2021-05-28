@@ -4,6 +4,8 @@
 * [Where does software run?](#where-does-software-run)
 * [Variables and Values](./VariablesAndValues.md)
 * [Namespaces and Classes](./ClassesAndNamespaces.md)
+* [Collections](./Collections.md)
+* [Exceptions](./Exceptions.md)
 
 ---
 
