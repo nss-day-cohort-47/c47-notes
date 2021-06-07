@@ -7,6 +7,7 @@
 * [Collections](./Collections.md)
 * [Exceptions](./Exceptions.md)
 * [Relational Databases and SQL](./SQL/)
+* [Inheritance](./Inheritance)
 
 ---
 
