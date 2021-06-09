@@ -47,6 +47,39 @@
   * *usually* private
   * *usually* start with an "_"
 
+* Class / Object Relationships
+  * Inheritance
+    * parent / child relationship
+    * `is-a` relationship
+      * An `Instructor` object is-a `Person`
+      * one-way relationship
+        * A `Person` object is not necessarily an `Instructor`
+
+  * Association
+    * Usually we use the term "composition"
+    * Objects are related in some way
+    * `has-a` relationship
+      * one object contains an instance of another
+    * "prefer composition over inheritance"
+      * as a way to reuse code
+
+* `static`
+  * a keyword used to mark a method or property as something that can be used without instantiating an object.
+  * Use the class name to invoke a `static` method
+    * ex: `StringUtil.Capitalize("word");`
+
+* overloading
+  * the term "overloading" refers to having multiple methods with the same name.
+  * overloaded methods are distinguished by the number and types of parameters.
+  * overloading is often conflated with _overriding_
+
+* Access Modifiers
+  * `public`, `private`, `protected`
+  * used to indicate how accessible a method, property or field is.
+  * `public` can be accessed by any other code
+  * `private` can only be accessed within the class
+  * `protected` like private, but can also be accessed by child classes.
+
 ### Classes are like Factory Functions in JavaScript
 
 A class in C# is like a "factory" function in JavaScript. Both are used to construct new objects
@@ -93,6 +126,7 @@ public class Diary
     public List<string> Entries { get; set; }
 }
 ```
+
 ##### Using the class
 
 ```cs
@@ -101,3 +135,5 @@ Diary myDiary = new Diary("Tyler");
 ```
 
 ## [Example C# project - Diary](./DiaryProject)
+
+

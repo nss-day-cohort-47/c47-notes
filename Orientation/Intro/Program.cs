@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 
-List<string> groceryList = new List<string>() {
-    "foo", "bar", "baz"
+List<string> groceryList = new List<string>()
+{
+    "foo",
+    "bar",
+    "baz"
 };
 
 Console.Write("First Name> ");
@@ -39,8 +42,6 @@ for (int i = fullName.Length - 1; i >= 0; i--)
     Console.Write(fullName[i]);
 }
 
-
-
 /*
 Console.Write("Who would you like to say hello to? ");
 
@@ -57,3 +58,47 @@ else
 }
 */
 // this is some text
+
+Person taco = new Person() { Name = "Phil" };
+taco = new Person() { Name = "Mary" };
+
+
+Automobile a = new Automobile();
+a.Break();
+//a.Honk();
+//a.SqueezeBreakPads();
+
+Car c = new Car();
+
+public class Person
+{
+    public string Name { get; set; }
+}
+
+public class Automobile {
+
+    public string Break() {
+        SqueezeBreakPads();
+        return "skuuuuuur";
+    }
+
+
+
+    protected string SqueezeBreakPads() {
+        return "";
+    }
+
+    private void Honk() {
+
+    }
+}
+
+// Derived class
+public class Car : Automobile {
+
+    public string UseEmergencyBreak() {
+
+        SqueezeBreakPads();
+        return "skreeech!";
+    }
+}
