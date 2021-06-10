@@ -9,7 +9,7 @@
 * [Relational Databases and SQL](./SQL/)
 * [Inheritance and Interfaces](./Inheritance)
 * [Abstraction](./Abstraction.md)
-
+* [LINQ](./LINQ.md)
 ---
 
 ## Concepts common to most programming languages
