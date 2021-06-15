@@ -9,6 +9,7 @@
 * [Relational Databases and SQL](./SQL/)
 * [Inheritance and Interfaces](./Inheritance)
 * [Abstraction](./Abstraction.md)
+* [LINQ](./LINQ.md)
 * [ADO.NET](./ado.net.md)
 
 ---
