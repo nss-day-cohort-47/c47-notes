@@ -15,6 +15,7 @@
       * Dependencies are listed in the constructor of a class.
 * dependency injection in ASP<span>.</span>NET Core
   * uses these methods to control the "lifetime" of dependencies
+    * this is a good explanation: https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences
     * services.AddTransient
       * this instructs ASP<span>.</span>NET to create a NEW instance of the dependency each time the controller is instantiated
     * services.AddScoped
@@ -42,6 +43,3 @@
   * Different layouts for different pages???
   * A "layout" is term for the boilerplate of the each web page. Contains headers and footers and any common element that each page would have
   * You can make custom layouts using `Layout = "somelayout";` in the individual razor file
-
-
- 
