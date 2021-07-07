@@ -33,3 +33,25 @@ You can use var for _local variables_ where the variable is being assigned a val
 You cannot use `var` for properties or fields.
 
 You cannot use `var` when you aren't assigning a value to the variable right away.
+
+## `var` is NOT dynamic
+
+It's common for people who first encounter `var` to think that it allows for _dynamic types_ in C#. It does not. All variable are still _strongly typed_.
+
+This means that the following code is **ILLEGAL** and **_WILL NOT COMPILE_**
+
+```cs
+var name = "Tootie";
+name = 42; // this will not work because "name" has a type of "string" and not "int"
+```
+
+However this code **WILL** compile and is valid.
+
+```cs
+var name = "Frank";
+name = "Francis"; // can reassign "name" to a different string value.
+```
+
+## Example
+
+Take a look at the `LetsTalkAboutVAr` project located in this repo for some example code.
