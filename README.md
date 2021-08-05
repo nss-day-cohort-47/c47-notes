@@ -7,3 +7,6 @@
 * [var](./LetsTalkAboutVar)
 
 * [Vocabulary](./Vocabulary.md)
+
+* [Study List](./studylist.md)
+
